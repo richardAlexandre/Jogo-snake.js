@@ -9,7 +9,7 @@ const size = 30;
 const snake = [   //essa é a cobra
     { x: 200, y: 200 },
     { x: 230, y: 200 },
-    
+     
     
 ];
 
