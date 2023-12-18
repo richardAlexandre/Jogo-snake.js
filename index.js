@@ -5,7 +5,7 @@ const h1 = document.querySelector('h1')
 //   ctx.fillStyle ="red"  //estilo de preenchimento da figura
 //   ctx.fillRect(300,300, 50, 50) //definir o formato
 
-const size = 30; // o tamanho de cada pedaço da cobra
+// const audio = new ('./assents/audio.mp3')
 
 
 const snake = [   //essa é a cobra
@@ -112,6 +112,7 @@ const chackEat =() =>{
     const head = snake[snake.length - 1]
  if(head.x == food.x && head.y == food.y){
     snake.push(head)
+    // audio.play()
 
    let x = randomPosition()
    let y = randomPosition()
